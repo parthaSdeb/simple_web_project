@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: simple-webapp-container
-        image: partha00011/simple_web_app
+        image: partha00011/simple_web_app:latest
         resources:
           limits:
             memory: "64Mi"
