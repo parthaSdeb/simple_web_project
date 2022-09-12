@@ -15,7 +15,7 @@ spec:
       containers:
       - name: simple-webapp-container
         image: partha00011/simple_web_app
-        imagePullPolicy: Always
+        imagePullPolicy: ifNotPresent
         resources:
           limits:
             memory: "64Mi"
