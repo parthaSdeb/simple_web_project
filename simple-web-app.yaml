@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: simple-webapp-container
-        #image: partha00011/simple_web_app
-        image: registry.tirzok.com:5000/simple_web_app
+        image: partha00011/simple_web_app
+        #image: registry.tirzok.com:5000/simple_web_app
         imagePullPolicy: IfNotPresent
         resources:
           limits:
